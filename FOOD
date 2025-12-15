@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSN Restaurant Guide</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background-color: #f4f4f4; }
+        .header { background-color: #003366; color: white; padding: 20px; text-align: center; }
+        .header h1 { margin: 0; font-size: 1.5em; }
+        .container { padding: 15px; }
+        .category { background-color: white; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .category h2 { margin: 0; padding: 15px; background-color: #e9ecef; border-top-left-radius: 8px; border-top-right-radius: 8px; font-size: 1.2em; }
+        .restaurant-list { list-style: none; padding: 0; margin: 0; }
+        .restaurant-list li { border-bottom: 1px solid #eee; }
+        .restaurant-list a { text-decoration: none; color: #007bff; display: block; padding: 15px; }
+        .restaurant-list a:hover { background-color: #f8f9fa; }
+        .restaurant-list small { display: block; color: #6c757d; padding: 0 15px 15px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Naval Station Norfolk Restaurant Guide</h1>
+    </div>
+
+    <div class="container">
+        <div class="category">
+            <h2>FAST FOOD & QUICK SERVICE</h2>
+            <ul class="restaurant-list">
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Burger+King,1560+Mall+Dr,Norfolk,VA" target="_blank">Burger King</a>
+                    <small>Main Exchange – 1560 Mall Dr, Bldg. CD-13</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Panda+Express,1560+Mall+Dr,Norfolk,VA" target="_blank">Panda Express</a>
+                    <small>Main Exchange – 1560 Mall Dr, Bldg. CD-13</small>
+                </li>
+                 <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Firehouse+Subs,1560+Mall+Dr,Norfolk,VA" target="_blank">Firehouse Subs</a>
+                    <small>Main Exchange – 1560 Mall Dr, Bldg. CD-13</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=MOD+Pizza,1560+Mall+Dr,Norfolk,VA" target="_blank">MOD Pizza</a>
+                    <small>Main Exchange – 1560 Mall Dr, Bldg. CD-13</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Raising+Cane's,1560+Mall+Dr,Norfolk,VA" target="_blank">Raising Cane's</a>
+                    <small>Main Exchange – 1560 Mall Dr, Bldg. CD-13</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Auntie+Anne's,1560+Mall+Dr,Norfolk,VA" target="_blank">Auntie Anne's</a>
+                    <small>Main Exchange – 1560 Mall Dr, Bldg. CD-13</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Starbucks,1560+Mall+Dr,Norfolk,VA" target="_blank">Starbucks Coffee</a>
+                    <small>Main Exchange – 1560 Mall Dr, Bldg. CD-13</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Bellissimo+Coffee+Shop,1731+Gilbert+St,Norfolk,VA" target="_blank">Bellissimo Coffee Shop</a>
+                    <small>1731 Gilbert St, Bldg. C-9 (M–F 0700-1400)</small>
+                </li>
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>SIT-DOWN & FULL-SERVICE DINING</h2>
+            <ul class="restaurant-list">
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Naval+Station+Norfolk+Galley,1650+Gilbert+St,Norfolk,VA" target="_blank">Naval Station Norfolk Galley</a>
+                    <small>1650 Gilbert St</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=McDonald's,Carrier+Piers,105th+St,Norfolk,VA" target="_blank">McDonald's (Carrier Piers)</a>
+                    <small>Carrier Piers, 105th St, Bldg. Q-33</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Pizza+Hut,9700+N+Rodgers+Rd,Pier+12,Norfolk,VA" target="_blank">Pizza Hut</a>
+                    <small>9700 N Rodgers Rd, Pier 12</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Chili's+Grill+%26+Bar,9226+Mall+Dr,Norfolk,VA" target="_blank">Chili's Grill & Bar</a>
+                    <small>9226 Mall Dr, Bldg. CD-14</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Wendy's,9400+Decatur+Ave,Norfolk,VA" target="_blank">Wendy's</a>
+                    <small>9400 Decatur Ave, Bldg. Z-300</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Vista+Point+Catering+%26+Café,1754+Massey+Hughes+Dr,Norfolk,VA" target="_blank">Vista Point Catering & Café</a>
+                    <small>1754 Massey Hughes Dr, Bldg. Q-88</small>
+                </li>
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>SUSHI, SUBS, PIZZA & MEXICAN</h2>
+            <ul class="restaurant-list">
+                 <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Subway,1731+Gilbert+St,Norfolk,VA" target="_blank">Subway (C-9)</a>
+                    <small>1731 Gilbert St, Bldg. C-9</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Subway,440+Aircraft+Tow+Way,Norfolk,VA" target="_blank">Subway (Tow Way)</a>
+                    <small>440 Aircraft Tow Way, Bldg. V55</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=QDOBA+Mexican+Eats,1731+Gilbert+St,Norfolk,VA" target="_blank">QDOBA Mexican Eats</a>
+                    <small>1731 Gilbert St, Bldg. C-9</small>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Hissho+Sushi,1731+Gilbert+St,Norfolk,VA" target="_blank">Hissho Sushi</a>
+                    <small>1731 Gilbert St, Bldg. C-9</small>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
